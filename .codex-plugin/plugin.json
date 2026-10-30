@@ -1,6 +1,6 @@
 {
   "name": "comms",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Create voice-matched drafts, assemble the weekly roundup post from staged research candidates, compare drafts with final edits, and propose durable style-rule updates only after repeated evidence.",
   "author": {
     "name": "BrightWay AI",
