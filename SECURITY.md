@@ -10,7 +10,7 @@ comms learns your writing voice from real edits over time. Read-only against you
 - **Web** (`WebSearch`) — recent LinkedIn posts (if accessible publicly) for bootstrap and diff analysis.
 - **Plugin references** — immutable `references/user-context.template.md` and `references/analysis-template.md`.
 - **Shared user-level config** — `<config-root>/memory/me/voice.md` (canonical voice), `<config-root>/style-*.md` (medium-specific), `<config-root>/memory/me/identity.md` (read-only).
-- **Other plugin drafts** — when you invoke `/style-learn` after editing a draft from Growth Engine, Client Success, Research, etc., the plugin reads the draft + the final edited version for diff analysis.
+- **Other plugin drafts** — when you invoke `/style-learn` after editing a draft from Growth, Clients, Research, etc., the plugin reads the draft + the final edited version for diff analysis.
 
 **Writes:**
 - **Style files** — `<config-root>/memory/me/voice.md` (refined), `<config-root>/style-{medium}.md` (created/updated as patterns emerge).

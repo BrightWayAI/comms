@@ -117,7 +117,7 @@ Populate `<voice-path>` using this exact structure (every drafter parses it):
 # Writing Voice
 
 _Last updated: [today]_
-_Created by /setup-voice (Comms Desk plugin; written to a Cortex-owned canonical file)_
+_Created by /setup-voice (Comms plugin; written to a Cortex-owned canonical file)_
 
 ## Voice descriptors
 - **Three words:** ...
