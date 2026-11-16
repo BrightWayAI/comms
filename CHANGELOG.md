@@ -4,6 +4,11 @@ All notable changes to voice (formerly writing-style) are documented here.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/). Versions match `plugin.json`.
 
+## [0.5.4] — post-assembler tool allowlist (2026-11-16)
+
+### Changed
+- `post-assembler` now has a tool allowlist: `Read, Grep, Glob`, matching what its instructions already said it needs.
+
 ## [0.5.3] — Cloud config-root portability (2026-10-30)
 
 ### Fixed
