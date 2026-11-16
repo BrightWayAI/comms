@@ -1,5 +1,5 @@
 ---
-description: Draft a LinkedIn-ready roundup post (plus first-comment sources) from staged research candidates or pasted material, in your voice. Reads `<config-root>/memory/me/voice.md` directly and uses the post-assembler agent. Companion to research's `/roundup`, which finds and stages candidates but does not draft them — Research finds, Comms Desk writes.
+description: Draft a LinkedIn-ready roundup post (plus first-comment sources) from staged research candidates or pasted material, in your voice. Reads `<config-root>/memory/me/voice.md` directly and uses the post-assembler agent. Companion to research's `/roundup`, which finds and stages candidates but does not draft them — Research finds, Comms writes.
 ---
 
 # /post [date]

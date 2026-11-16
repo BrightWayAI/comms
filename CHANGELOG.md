@@ -4,6 +4,12 @@ All notable changes to voice (formerly writing-style) are documented here.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/). Versions match `plugin.json`.
 
+## [0.5.5] — Plain plugin names (2026-11-16)
+
+### Changed
+- Plugins are named for the work they cover: Ops, Clients, Comms, Growth, Briefing, Alignment (were Chief of Staff, Client Success, Comms Desk, Growth Engine, Today's Brief, Team Alignment). In ChatGPT the mention changes to match, for example `@Ops`. Plugin IDs, commands, and behavior are unchanged.
+- Description rewritten to say what the plugin covers.
+
 ## [0.5.4] — post-assembler tool allowlist (2026-11-16)
 
 ### Changed

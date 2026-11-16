@@ -122,6 +122,6 @@ If the user says "good to go" or signals approval:
 
 ## What this is NOT for
 
-- **Mass-mailing.** This is for one-at-a-time drafting. Use Growth Engine for prioritized, reviewable touchpoint batches.
+- **Mass-mailing.** This is for one-at-a-time drafting. Use Growth for prioritized, reviewable touchpoint batches.
 - **Auto-sending.** Strictly drafts. User reviews and sends.
 - **Style enforcement against existing files.** This drafts new content. To audit existing content use `/style-review`.

@@ -1,4 +1,4 @@
-# comms (Comms Desk)
+# comms (Comms)
 
 Adaptive voice plugin for Claude. Learns your voice from real edits over time, in addition to whatever you captured up front via this plugin's `/setup-voice` (one-time interview; writes to the Cortex-owned canonical file `<config-root>/memory/me/voice.md`).
 
@@ -17,7 +17,7 @@ Adaptive voice plugin for Claude. Learns your voice from real edits over time, i
 |---|---|---|
 | **comms `/setup-voice`** | One-time capture of high-level voice descriptors (3 words, banned phrases, hook patterns); writes to the Cortex-owned canonical file | Baseline. comms's `/style` drafting and `/setup-style` refine over time on top of this. |
 | **bizdev-outreach** | Drafts per-contact outreach | When you edit a draft before sending, run `/style-learn` to feed the pattern back. |
-| **Growth Engine `/draft-touchpoint`** | Drafts relationship outreach | Same — `/style-learn` after you tweak. |
+| **Growth `/draft-touchpoint`** | Drafts relationship outreach | Same — `/style-learn` after you tweak. |
 | **comms `/post`** | Drafts the weekly LinkedIn roundup post from research's staged candidates (uses this plugin's `post-assembler` agent) | Reads `<config-root>/memory/me/voice.md` directly. Research finds/stages candidates; comms drafts. Run `/style-learn` after you publish your edited version. |
 | **All drafting plugins** | Read voice rules at draft time | Read `<config-root>/memory/me/voice.md` (canonical) + medium-specific `<config-root>/style-{medium}.md` (refined by comms). |
 
@@ -60,9 +60,9 @@ Plus plugin config at `<config-root>/plugins/comms.user-context.md` (edit-detect
 <!-- OPENAI-SUPPORT:START -->
 ## ChatGPT and Codex
 
-Comms Desk ships as a native OpenAI plugin as well as a Claude plugin. In
-ChatGPT desktop Local Work, enable **Comms Desk** and ask naturally or mention
-`@Comms Desk`. In Codex, use natural language or the namespaced skills exposed
+Comms ships as a native OpenAI plugin as well as a Claude plugin. In
+ChatGPT desktop Local Work, enable **Comms** and ask naturally or mention
+`@Comms`. In Codex, use natural language or the namespaced skills exposed
 by the plugin. Claude slash-command names in this README remain workflow aliases.
 
 All hosts resolve the same `<config-root>` used by Cortex, so Claude, ChatGPT desktop,
